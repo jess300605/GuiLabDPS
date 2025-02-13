@@ -1,0 +1,94 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #1d1d1d;
+}
+
+.app {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #0a0a0a;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0051a2;
+}
+
+.shoppingList {
+  margin-top: 2rem;
+}
+
+.shoppingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.itemInfo {
+  flex-grow: 1;
+}
+
+.deleteButton {
+  padding: 0.25rem 0.5rem;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #ff7875;
+}
+
+.total {
+  margin-top: 2rem;
+  text-align: right;
+  font-weight: bold;
+}
