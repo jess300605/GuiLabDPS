@@ -1,0 +1,94 @@
+.container {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .orderCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .orderHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .orderHeader h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  
+  .pending {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  .preparing {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .served {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .orderItems {
+    margin-bottom: 15px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 15px 0;
+    padding-top: 10px;
+    border-top: 2px solid #eee;
+  }
+  
+  .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .statusButton {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .statusButton.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .noOrders {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+  }
